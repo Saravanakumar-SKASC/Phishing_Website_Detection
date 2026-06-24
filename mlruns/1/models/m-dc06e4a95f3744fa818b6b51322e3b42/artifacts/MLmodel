@@ -1,0 +1,22 @@
+artifact_path: /Users/saravanakumarnagalingam/Desktop/Phishing_Website_Detection/mlruns/1/models/m-dc06e4a95f3744fa818b6b51322e3b42/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.12.8
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.3.0
+mlflow_version: 3.14.0
+model_id: m-dc06e4a95f3744fa818b6b51322e3b42
+model_size_bytes: 992504
+model_uuid: m-dc06e4a95f3744fa818b6b51322e3b42
+prompts: null
+run_id: 23fc8f04256e47908d2b0756c641ab96
+utc_time_created: '2026-06-24 10:54:52.263742'

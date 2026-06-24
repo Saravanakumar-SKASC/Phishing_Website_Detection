@@ -1,0 +1,26 @@
+artifact_path: /Users/saravanakumarnagalingam/Desktop/Phishing_Website_Detection/mlruns/1/models/m-8b1e788e666c49e6a30fb5a9437717e8/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.8
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - sklearn.neural_network._multilayer_perceptron.MLPClassifier
+    - sklearn.neural_network._stochastic_optimizers.AdamOptimizer
+    - sklearn.neural_network._stochastic_optimizers.SGDOptimizer
+mlflow_version: 3.14.0
+model_id: m-8b1e788e666c49e6a30fb5a9437717e8
+model_size_bytes: 408318
+model_uuid: m-8b1e788e666c49e6a30fb5a9437717e8
+prompts: null
+run_id: 1ab7a5387b7840e4a5abe4e3b83585f2
+utc_time_created: '2026-06-24 10:54:55.561136'
